@@ -15,6 +15,8 @@ namespace FirstGitApp
             Console.WriteLine("Sum of 10, 20 is "+ add(10,20));
             Console.WriteLine("Diff of 10, 20 is " + sub(10, 20));
 
+            Console.WriteLine("Product of 10, 20 is " + mul(10, 20));
+
             Console.ReadKey();
         }
 
@@ -25,6 +27,11 @@ namespace FirstGitApp
         static int sub(int x, int y)
         {
             return x - y;
+        }
+
+        static int mul(int x, int y)
+        {
+            return x * y;
         }
     }
 }
